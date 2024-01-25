@@ -26,6 +26,10 @@ body {
     height: 62px;
 }
 
+.cabecalho-logo:hover {
+    height: 52px;
+}
+
 .cabecalho-menu {
     display: flex;
     gap: 34px;
@@ -39,7 +43,7 @@ body {
 }
 
 .cabecalho-menu-item:hover {
-    color: #FBFCFF;
+    color: rgba(196, 205, 236, 0.5);
 }
 
 /* Estilizando Corpo Principal - Conteudo Principal*/
@@ -90,6 +94,10 @@ body {
     box-shadow: 4px 5px 4px 0px #00000040;
 }
 
+.conteudo-principal-texto-botao:hover {
+    background-color: rgba(196, 205, 236, 0.5);
+}
+
 .conteudo-principal-imagem {
     height: 430px;
 }
@@ -125,4 +133,21 @@ body {
     font-family: 'Sarala', sans-serif;
     font-weight: 100;
     font-size: 18px;
+}
+
+/* Estilizando Corpo Principal - Conteudo Secundário*/
+
+.rodape {
+    margin-top: 40px;
+    border-top: 0.4px solid #FBFCFF;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape-texto {
+    padding: 30px;
+    
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+    color: #FBFCFF;
 }
