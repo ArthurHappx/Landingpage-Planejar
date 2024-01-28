@@ -15,29 +15,25 @@ body {
 /* Estilizando Cabeçalho */
 
 .cabecalho {
-    padding: 24px;
-    height: 90px;
-    width: 1100px;
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+    gap: 600px;
+    min-height: 68px;
 }
 
 .cabecalho-logo {
-    height: 62px;
-    position: absolute;
-    top: 16px;
-    left: 138px;
+    height: 52px;
+    transition: scale 0.5s ease;
 }
 
 .cabecalho-logo:hover {
-    height: 52px;
+    scale: 0.90;
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 34px;
-
-    position: absolute;
-    top: 32px;
-    left: 700px;
+    gap: 30px;
 }
 
 .cabecalho-menu-item {
@@ -99,10 +95,12 @@ body {
     border-radius: 20px;
     border: none;
     box-shadow: 4px 5px 4px 0px #00000040;
+    transition: scale 0.5s ease;
 }
 
 .conteudo-principal-texto-botao:hover {
     cursor: pointer;
+    scale: 0.96;
     background-color: rgba(196, 205, 236, 0.5);
 }
 
